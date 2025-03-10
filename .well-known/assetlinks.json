@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.dialer.dialer",
+      "sha256_cert_fingerprints": [
+        "C8:B7:EB:A4:EC:D9:52:74:27:09:D1:1E:AC:E2:27:F6:1C:08:EC:84:DD:F5:94:7C:21:C4:45:6C:02:75:CF:FD"
+      ]
+    }
+  }
+]
