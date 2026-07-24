@@ -596,7 +596,7 @@ a {
 /* Footer */
 .page-footer {
   text-align: center;
-  padding: 1rem 1.5rem 1.5rem;
+  padding: 1rem 1.5rem 1.75rem;
   font-size: 0.8rem;
   color: #64748b;
 }
@@ -604,6 +604,23 @@ a {
 .page-footer a {
   color: var(--sky);
   font-weight: 600;
+}
+
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.65rem 1.15rem;
+  margin-bottom: 0.65rem;
+}
+
+.footer-nav a {
+  color: var(--ink-soft);
+  font-weight: 500;
+}
+
+.footer-nav a:hover {
+  color: var(--sky);
 }
 
 @media (max-width: 899px) {
