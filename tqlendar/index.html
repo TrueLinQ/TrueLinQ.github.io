@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>tQlendar — Track every day that matters</title>
   <meta name="description" content="tQlendar is the shared calendar app for milk delivery, maid attendance, and any daily routine. Log it. Share it. See the pattern." />
+  <meta property="og:title" content="tQlendar — Track every day that matters" />
+  <meta property="og:description" content="Shared calendars for milk delivery, maid attendance, and any daily routine." />
+  <meta property="og:image" content="assets/tqlendar_feature_graphic.png" />
+  <link rel="icon" type="image/png" href="tqlendar_app_icon.png" />
+  <link rel="apple-touch-icon" href="tqlendar_app_icon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
@@ -14,12 +19,7 @@
   <div class="page">
     <header class="topbar">
       <a class="brand-lockup" href="./" aria-label="tQlendar home">
-        <span class="brand-mark" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="3" y="4" width="18" height="18" rx="2"></rect>
-            <path d="M16 2v4M8 2v4M3 10h18"></path>
-          </svg>
-        </span>
+        <img class="brand-mark" src="tqlendar_app_icon.png" width="36" height="36" alt="" />
         <span class="brand-name">tQlendar</span>
       </a>
       <a class="top-link" href="../index.html">TrueLinq Dialer →</a>
@@ -90,10 +90,7 @@
                 <article class="slide is-active" data-label="Welcome" aria-hidden="false">
                   <div class="slide-status"><span>9:41</span><span>●●●</span></div>
                   <div class="welcome-icon" aria-hidden="true">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
-                      <rect x="3" y="4" width="18" height="18" rx="2"></rect>
-                      <path d="M16 2v4M8 2v4M3 10h18"></path>
-                    </svg>
+                    <img src="tqlendar_app_icon.png" width="64" height="64" alt="" />
                   </div>
                   <div class="welcome-center">
                     <h3>tQlendar</h3>
@@ -201,6 +198,68 @@
         <p class="slide-label" id="slideLabel">Welcome</p>
       </div>
     </main>
+
+    <section class="features" aria-labelledby="features-heading">
+      <h2 id="features-heading" class="features-heading">Built for real daily life</h2>
+      <p class="features-sub">Track together. Share the calendar. Spot the pattern.</p>
+
+      <div class="feature-slider" aria-roledescription="carousel" aria-label="tQlendar feature graphics">
+        <div class="feature-viewport">
+          <div class="feature-track" id="featureTrack">
+            <figure class="feature-slide is-active" data-label="Overview" aria-hidden="false">
+              <img
+                src="assets/tqlendar_feature_graphic.png"
+                width="1024"
+                height="576"
+                alt="tQlendar — Shared calendars for daily tracking"
+              />
+            </figure>
+            <figure class="feature-slide" data-label="Track anything daily" aria-hidden="true">
+              <img
+                src="assets/tqlendar_feature_track.png"
+                width="1024"
+                height="576"
+                alt="Track anything daily — milk, maid, medicine, mood"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="feature-slide" data-label="Share with family" aria-hidden="true">
+              <img
+                src="assets/tqlendar_feature_share.png"
+                width="1024"
+                height="576"
+                alt="Share with family — everyone logs the same calendar"
+                loading="lazy"
+              />
+            </figure>
+            <figure class="feature-slide" data-label="See the patterns" aria-hidden="true">
+              <img
+                src="assets/tqlendar_feature_reports.png"
+                width="1024"
+                height="576"
+                alt="See the patterns — reports and charts from daily entries"
+                loading="lazy"
+              />
+            </figure>
+          </div>
+        </div>
+
+        <div class="feature-controls">
+          <button type="button" class="slider-btn" id="featurePrev" aria-label="Previous feature">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M15 18l-6-6 6-6"/>
+            </svg>
+          </button>
+          <div class="dots" id="featureDots" role="tablist" aria-label="Choose feature"></div>
+          <button type="button" class="slider-btn" id="featureNext" aria-label="Next feature">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 18l6-6-6-6"/>
+            </svg>
+          </button>
+        </div>
+        <p class="slide-label" id="featureLabel">Overview</p>
+      </div>
+    </section>
 
     <footer class="page-footer">
       <nav class="footer-nav" aria-label="Legal">
