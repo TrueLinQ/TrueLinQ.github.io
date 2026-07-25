@@ -3,61 +3,108 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Design Hero Section</title>
+  <title>TrueLinq Dialer — Caller ID, Spam Alerts &amp; Trusted Calls</title>
+  <meta name="description" content="TrueLinq Dialer helps you know who’s calling, spot spam and scams, and verify businesses before you pick up. Free on Google Play." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://docs.truelinq.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="TrueLinq" />
+  <meta property="og:url" content="https://docs.truelinq.com/" />
+  <meta property="og:title" content="TrueLinq Dialer — Caller ID, Spam Alerts &amp; Trusted Calls" />
+  <meta property="og:description" content="Know who’s calling. Spot spam and scams. Verify businesses before you pick up." />
+  <meta property="og:image" content="https://docs.truelinq.com/android-chrome-512x512.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="TrueLinq Dialer — Caller ID, Spam Alerts &amp; Trusted Calls" />
+  <meta name="twitter:description" content="Know who’s calling. Spot spam and scams. Verify businesses before you pick up." />
+  <meta name="twitter:image" content="https://docs.truelinq.com/android-chrome-512x512.png" />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://docs.truelinq.com/#organization",
+        "name": "TrueLinq",
+        "url": "https://docs.truelinq.com/",
+        "logo": "https://docs.truelinq.com/logo.png",
+        "email": "support@truelinq.com"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://docs.truelinq.com/#website",
+        "url": "https://docs.truelinq.com/",
+        "name": "TrueLinq",
+        "publisher": { "@id": "https://docs.truelinq.com/#organization" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "TrueLinq Dialer",
+        "operatingSystem": "Android",
+        "applicationCategory": "UtilitiesApplication",
+        "description": "Caller ID, spam and scam alerts, and business trust ratings so you know who is calling before you answer.",
+        "url": "https://docs.truelinq.com/",
+        "image": "https://docs.truelinq.com/android-chrome-512x512.png",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "downloadUrl": "https://play.google.com/store/apps/details?id=com.dialer.dialer&hl=en_IN",
+        "publisher": { "@id": "https://docs.truelinq.com/#organization" }
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <div class="min-h-screen bg-gray-50">
-    <!-- Header -->
     <header class="header">
       <div class="container">
         <div class="header-content">
-          <!-- Logo -->
-          <div class="logo-container">
-            <img src="src/assets/a15ca618bd553ecb044cc39186655677e1276ffa.png" alt="TrueLinq Logo" class="logo-img" />
+          <a class="logo-container" href="/" aria-label="TrueLinq home">
+            <img src="logo.png" alt="TrueLinq" class="logo-img" width="40" height="40" />
             <span class="logo-text">TrueLinq</span>
-          </div>
+          </a>
 
-          <!-- Navigation -->
-          <nav class="nav-desktop">
-            <a href="#companies" class="nav-link">Companies</a>
-            <a href="#professional-connections" class="nav-link">Professional Connections</a>
+          <nav class="nav-desktop" aria-label="Primary">
+            <a href="#dialer" class="nav-link">Dialer</a>
             <a href="tqlendar/" class="nav-link">tQlendar</a>
-            <a href="#contact" class="nav-link">Contact Us</a>
+            <a href="tqlendar/support.html" class="nav-link">Support</a>
+            <a href="mailto:support@truelinq.com" class="nav-link">Contact</a>
           </nav>
         </div>
       </div>
     </header>
 
-    <!-- Hero -->
     <div class="hero-section">
       <div class="container">
         <h1 class="hero-title">
           Smarter Calls. <span class="hero-title-accent">Trusted Connections.</span>
         </h1>
         <p class="hero-description">
-          Know who's calling. Verify who you're calling. Secure communication.
+          TrueLinq Dialer is a caller ID and spam-alert dialer for Android — know who’s calling,
+          spot scam numbers, and check business trust before you pick up.
         </p>
       </div>
     </div>
 
-    <!-- Feature Cards -->
-    <div class="features-section">
+    <div class="features-section" id="dialer">
       <div class="container">
         <div class="features-grid">
-          <!-- Dialer Card -->
           <div class="feature-card">
-            <!-- Background Icon -->
-            <div class="card-bg-icon">
+            <div class="card-bg-icon" aria-hidden="true">
               <svg class="icon-large" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
               </svg>
             </div>
 
             <div class="card-content">
-              <!-- Header -->
               <div class="card-header">
-                <div class="card-icon bg-blue">
+                <div class="card-icon bg-blue" aria-hidden="true">
                   <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                   </svg>
@@ -66,13 +113,12 @@
               </div>
 
               <p class="card-description">
-                Identify scams, spam & business trust ratings instantly.
+                Identify scams, spam &amp; business trust ratings instantly with caller ID built for everyday Android use.
               </p>
 
-              <!-- Call Examples -->
               <div class="call-examples">
                 <div class="call-example call-example-spam">
-                  <div class="call-icon bg-red">
+                  <div class="call-icon bg-red" aria-hidden="true">
                     <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                       <circle cx="12" cy="12" r="10"></circle>
                       <line x1="12" y1="8" x2="12" y2="12"></line>
@@ -86,7 +132,7 @@
                 </div>
 
                 <div class="call-example call-example-verified">
-                  <div class="call-icon bg-blue">
+                  <div class="call-icon bg-blue" aria-hidden="true">
                     <svg class="icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                       <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                       <polyline points="22 4 12 14.01 9 11.01"></polyline>
@@ -99,21 +145,8 @@
                 </div>
               </div>
 
-              <!-- Actions -->
               <div class="card-actions">
-                <!-- App Store — hidden until listing is live
-                <a href="#app-store" class="app-button">
-                  <svg class="app-icon" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M17.05 20.28c-.98.95-2.05.88-3.08.4-1.09-.5-2.08-.48-3.24 0-1.44.62-2.2.44-3.06-.4C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
-                  </svg>
-                  <div class="app-button-text">
-                    <span class="app-button-label">Download on the</span>
-                    <span class="app-button-name">App Store</span>
-                  </div>
-                </a>
-                -->
-
-                <!-- Google Play Button -->
+                <!-- App Store — hidden until listing is live -->
                 <a
                   href="https://play.google.com/store/apps/details?id=com.dialer.dialer&hl=en_IN"
                   class="app-button"
@@ -121,7 +154,7 @@
                   rel="noopener noreferrer"
                   aria-label="Get TrueLinq Dialer on Google Play"
                 >
-                  <svg class="app-icon" viewBox="0 0 24 24" fill="none">
+                  <svg class="app-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
                     <path d="M3 20.5L13.5 10L3 3.5V20.5Z" fill="#00D7FF"/>
                     <path d="M13.5 10L3 20.5L16.5 13.5L13.5 10Z" fill="#FFCE00"/>
                     <path d="M3 3.5L13.5 10L16.5 6.5L3 3.5Z" fill="#FF2D55"/>
@@ -138,152 +171,88 @@
             </div>
           </div>
 
-          <!-- Reviews Card -->
           <div class="feature-card">
-            <!-- Background Icon -->
-            <div class="card-bg-icon">
+            <div class="card-bg-icon" aria-hidden="true">
               <svg class="icon-large" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="11" cy="11" r="8"></circle>
-                <path d="m21 21-4.35-4.35"></path>
+                <rect x="3" y="4" width="18" height="18" rx="2"></rect>
+                <path d="M16 2v4M8 2v4M3 10h18"></path>
               </svg>
             </div>
 
             <div class="card-content">
-              <!-- Header -->
               <div class="card-header">
-                <div class="card-icon bg-green">
-                  <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <circle cx="11" cy="11" r="8"></circle>
-                    <path d="m21 21-4.35-4.35"></path>
-                  </svg>
+                <div class="card-icon bg-green" aria-hidden="true">
+                  <img src="tqlendar/tqlendar_app_icon.png" alt="" width="28" height="28" style="border-radius:8px;display:block;" />
                 </div>
-                <h2 class="card-title">TrueLinq Reviews</h2>
+                <h2 class="card-title">tQlendar</h2>
               </div>
 
               <p class="card-description">
-                Search companies, read verified real experiences.
+                Shared calendars for milk delivery, maid attendance, medicine, and any daily routine you track with family.
               </p>
 
-              <!-- Company Reviews -->
-              <div class="reviews-list">
-                <div class="review-card">
-                  <div class="review-header">
-                    <div class="review-company">
-                      <div class="company-avatar bg-blue">T</div>
-                      <div class="company-name">TechFlow</div>
-                    </div>
-                    <div class="review-rating">
-                      <div class="stars">
-                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor">
-                          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                        </svg>
-                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor">
-                          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                        </svg>
-                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor">
-                          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                        </svg>
-                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor">
-                          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                        </svg>
-                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor">
-                          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                        </svg>
-                      </div>
-                      <span class="review-count">(248)</span>
-                    </div>
-                  </div>
-                  <div class="review-content">
-                    <div class="review-meta">
-                      <div class="stars small">
-                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor">
-                          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                        </svg>
-                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor">
-                          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                        </svg>
-                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor">
-                          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                        </svg>
-                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor">
-                          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                        </svg>
-                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor">
-                          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                        </svg>
-                      </div>
-                      <span class="review-author">Sarah M. - 2 days ago</span>
-                    </div>
-                    <p class="review-text">"Excellent customer service! They resolved my issue quickly and professionally."</p>
+              <div class="call-examples">
+                <div class="call-example call-example-verified">
+                  <div class="call-icon bg-blue" aria-hidden="true">M</div>
+                  <div class="call-info">
+                    <div class="call-name">Milkman</div>
+                    <div class="call-status verified">Logged today</div>
                   </div>
                 </div>
-
-                <div class="review-card">
-                  <div class="review-header">
-                    <div class="review-company">
-                      <div class="company-avatar bg-purple">G</div>
-                      <div class="company-name">Global Log</div>
-                    </div>
-                    <div class="review-rating">
-                      <div class="stars">
-                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor">
-                          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                        </svg>
-                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor">
-                          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                        </svg>
-                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor">
-                          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                        </svg>
-                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor">
-                          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                        </svg>
-                        <svg class="star empty" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                        </svg>
-                      </div>
-                      <span class="review-count">(182)</span>
-                    </div>
-                  </div>
-                  <div class="review-content">
-                    <div class="review-meta">
-                      <div class="stars small">
-                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor">
-                          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                        </svg>
-                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor">
-                          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                        </svg>
-                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor">
-                          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                        </svg>
-                        <svg class="star filled" viewBox="0 0 24 24" fill="currentColor">
-                          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                        </svg>
-                        <svg class="star empty" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                        </svg>
-                      </div>
-                      <span class="review-author">John D. - 1 week ago</span>
-                    </div>
-                    <p class="review-text">"Good service overall, but delivery took longer than expected."</p>
+                <div class="call-example call-example-spam">
+                  <div class="call-icon bg-red" aria-hidden="true">A</div>
+                  <div class="call-info">
+                    <div class="call-name">Maid Attendance</div>
+                    <div class="call-status spam">Absent</div>
                   </div>
                 </div>
               </div>
 
-              <!-- Action -->
-              <button class="search-button">Search Companies</button>
+              <div class="card-actions">
+                <a href="tqlendar/" class="app-button" aria-label="Open tQlendar product page">
+                  <div class="app-button-text">
+                    <span class="app-button-label">Learn more</span>
+                    <span class="app-button-name">tQlendar</span>
+                  </div>
+                </a>
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.tq.tqlendar&hl=en_IN"
+                  class="app-button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Get tQlendar on Google Play"
+                >
+                  <svg class="app-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M3 20.5L13.5 10L3 3.5V20.5Z" fill="#00D7FF"/>
+                    <path d="M13.5 10L3 20.5L16.5 13.5L13.5 10Z" fill="#FFCE00"/>
+                    <path d="M3 3.5L13.5 10L16.5 6.5L3 3.5Z" fill="#FF2D55"/>
+                    <path d="M13.5 10L16.5 6.5L21 9.25L13.5 10Z" fill="#00D7FF"/>
+                    <path d="M13.5 10L21 9.25L21 14.75L13.5 10Z" fill="#FFCE00"/>
+                    <path d="M16.5 13.5L21 14.75L13.5 10L16.5 13.5Z" fill="#FF2D55"/>
+                  </svg>
+                  <div class="app-button-text">
+                    <span class="app-button-label">GET IT ON</span>
+                    <span class="app-button-name">Google Play</span>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Footer -->
     <footer class="footer">
       <div class="container">
         <p class="footer-text">
-          One platform. Two trusted tools. © 2024
+          <a href="/">TrueLinq Dialer</a>
+          ·
+          <a href="tqlendar/">tQlendar shared calendar</a>
+          ·
+          <a href="tqlendar/privacy.html">Privacy</a>
+          ·
+          <a href="tqlendar/support.html">Support</a>
+          · © 2026 TrueLinq
         </p>
       </div>
     </footer>

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Legacy / template pages
+Disallow: /about.html
+Disallow: /home/
+
+Sitemap: https://docs.truelinq.com/sitemap.xml
