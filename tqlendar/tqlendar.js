@@ -79,6 +79,9 @@
       else restartAuto();
     });
 
+    stage?.addEventListener("mouseenter", () => clearInterval(timer));
+    stage?.addEventListener("mouseleave", restartAuto);
+
     restartAuto();
   }
 
@@ -89,16 +92,6 @@
     prevBtn: document.getElementById("prevSlide"),
     nextBtn: document.getElementById("nextSlide"),
     stage: document.querySelector(".phone-stage"),
-    autoMs: 4200,
-  });
-
-  createSlider({
-    slides: Array.from(document.querySelectorAll(".feature-slide")),
-    dotsRoot: document.getElementById("featureDots"),
-    label: document.getElementById("featureLabel"),
-    prevBtn: document.getElementById("featurePrev"),
-    nextBtn: document.getElementById("featureNext"),
-    stage: document.querySelector(".feature-viewport"),
-    autoMs: 5000,
+    autoMs: 4500,
   });
 })();

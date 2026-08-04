@@ -1,7 +1,7 @@
 {
   "name": "TrueLinq",
   "short_name": "TrueLinq",
-  "description": "TrueLinq Dialer and tQlendar — caller ID and shared daily calendars.",
+  "description": "TrueLinq Dialer and Qlendar — caller ID and shared daily calendars.",
   "start_url": "/",
   "icons": [
     {
@@ -15,7 +15,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#1d4ed8",
-  "background_color": "#ffffff",
+  "theme_color": "#2563EB",
+  "background_color": "#F4F6F9",
   "display": "standalone"
 }

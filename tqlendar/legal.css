@@ -1,15 +1,16 @@
-/* Shared styles for tQlendar legal / support pages */
+/* Shared styles for Qlendar legal / support / docs pages */
 :root {
-  --ink: #0f172a;
-  --ink-soft: #334155;
-  --muted: #64748b;
-  --sky: #1d4ed8;
+  --seed: #2563eb;
+  --ink: #111827;
+  --ink-soft: #374151;
+  --muted: #6b7280;
+  --sky: #2563eb;
   --mint: #14b8a6;
-  --line: #e2e8f0;
-  --paper: #f8fafc;
+  --line: #e5e7eb;
+  --paper: #f4f6f9;
   --white: #ffffff;
-  --font-display: "Syne", sans-serif;
-  --font-body: "Outfit", sans-serif;
+  --font-display: "Fraunces", "Georgia", serif;
+  --font-body: "Manrope", system-ui, sans-serif;
 }
 
 *,
@@ -29,10 +30,10 @@ body {
   font-family: var(--font-body);
   color: var(--ink);
   background:
-    radial-gradient(ellipse 70% 45% at 10% 0%, rgba(56, 189, 248, 0.18), transparent 55%),
-    radial-gradient(ellipse 50% 40% at 100% 0%, rgba(20, 184, 166, 0.12), transparent 50%),
-    linear-gradient(180deg, #eef4ff 0%, var(--paper) 40%, #ffffff 100%);
+    radial-gradient(ellipse 65% 40% at 8% 0%, rgba(37, 99, 235, 0.12), transparent 55%),
+    linear-gradient(180deg, #eef2f8 0%, var(--paper) 42%, #ffffff 100%);
   line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -80,8 +81,10 @@ a:hover {
 
 .brand-name {
   font-family: var(--font-display);
-  font-weight: 800;
+  font-weight: 600;
   letter-spacing: -0.03em;
+  font-size: 1.2rem;
+  font-optical-sizing: auto;
 }
 
 .top-link {
@@ -112,10 +115,12 @@ a:hover {
 
 .doc h1 {
   font-family: var(--font-display);
-  font-size: clamp(1.75rem, 4vw, 2.25rem);
-  letter-spacing: -0.04em;
+  font-size: clamp(1.85rem, 4vw, 2.35rem);
+  font-weight: 600;
+  letter-spacing: -0.035em;
   line-height: 1.15;
   margin-bottom: 0.4rem;
+  font-optical-sizing: auto;
 }
 
 .meta {
@@ -126,9 +131,11 @@ a:hover {
 
 .doc h2 {
   font-family: var(--font-display);
-  font-size: 1.15rem;
+  font-size: 1.2rem;
+  font-weight: 600;
   letter-spacing: -0.02em;
   margin: 1.6rem 0 0.55rem;
+  font-optical-sizing: auto;
 }
 
 .doc p,
@@ -189,12 +196,12 @@ a:hover {
 }
 
 .btn-primary {
-  background: var(--ink);
+  background: var(--seed);
   color: white;
 }
 
 .btn-primary:hover {
-  background: #1e293b;
+  background: #1d4ed8;
 }
 
 .btn-secondary {
@@ -309,10 +316,12 @@ a:hover {
 
 .feature-card h3 {
   font-family: var(--font-display);
-  font-size: 1.05rem;
+  font-size: 1.1rem;
+  font-weight: 600;
   letter-spacing: -0.02em;
   margin-bottom: 0.35rem;
   color: var(--ink);
+  font-optical-sizing: auto;
 }
 
 .feature-card p {
@@ -389,10 +398,12 @@ a:hover {
 
 .template-item h3 {
   font-family: var(--font-display);
-  font-size: 1rem;
+  font-size: 1.05rem;
+  font-weight: 600;
   letter-spacing: -0.02em;
   margin-bottom: 0.25rem;
   color: var(--ink);
+  font-optical-sizing: auto;
 }
 
 .template-item .desc {
@@ -417,7 +428,7 @@ a:hover {
   padding: 0.28rem 0.55rem;
   border-radius: 999px;
   background: #eff6ff;
-  border: 1px solid #dbeafe;
+  border: 1px solid #bfdbfe;
   font-size: 0.78rem;
   font-weight: 500;
   color: var(--ink-soft);
