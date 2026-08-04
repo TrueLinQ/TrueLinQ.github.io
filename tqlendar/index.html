@@ -18,11 +18,12 @@
   <meta name="twitter:title" content="Qlendar — Shared Calendar for Daily Tracking" />
   <meta name="twitter:description" content="Shared calendars for milk delivery, maid attendance, medicine, and any daily routine." />
   <meta name="twitter:image" content="https://docs.truelinq.com/tqlendar/assets/tqlendar_feature_graphic.png" />
+  <meta name="theme-color" content="#2563EB" />
   <link rel="icon" type="image/png" href="https://docs.truelinq.com/tqlendar/tqlendar_app_icon.png" />
   <link rel="apple-touch-icon" href="https://docs.truelinq.com/tqlendar/tqlendar_app_icon.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="tqlendar.css" />
   <script type="application/ld+json">
   {
@@ -61,172 +62,174 @@
 </head>
 <body>
   <div class="page">
-    <header class="topbar">
-      <a class="brand-lockup" href="./" aria-label="Qlendar home">
-        <img class="brand-mark" src="tqlendar_app_icon.png" width="36" height="36" alt="Qlendar app icon" />
-        <span class="brand-name">Qlendar</span>
-      </a>
-      <nav class="top-links" aria-label="Site">
-        <a class="top-link" href="features.html">Features</a>
-        <a class="top-link" href="how-to.html">How to use</a>
-        <a class="top-link" href="templates.html">Templates</a>
-        <a class="top-link" href="https://tqlendar.web.app/" target="_blank" rel="noopener noreferrer">Web app</a>
-        <a class="top-link top-link-muted" href="https://docs.truelinq.com/">TrueLinq →</a>
-      </nav>
-    </header>
+    <div class="hero-band">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <header class="topbar">
+        <a class="brand-lockup" href="./" aria-label="Qlendar home">
+          <img class="brand-mark" src="tqlendar_app_icon.png" width="36" height="36" alt="Qlendar app icon" />
+          <span class="brand-name">Qlendar</span>
+        </a>
+        <nav class="top-links" aria-label="Site">
+          <a class="top-link" href="features.html">Features</a>
+          <a class="top-link" href="how-to.html">How to use</a>
+          <a class="top-link" href="templates.html">Templates</a>
+          <a class="top-link" href="https://tqlendar.web.app/" target="_blank" rel="noopener noreferrer">Web app</a>
+        </nav>
+      </header>
 
-    <main class="hero">
-      <div class="hero-copy">
-        <h1 class="hero-brand">Qlendar</h1>
-        <p class="hero-headline">Your days. Logged. Shared. Clear.</p>
-        <p class="hero-sub">
-          Shared trackers for milk delivery, maid attendance, medicine, and any routine your household logs together.
-        </p>
+      <main class="hero">
+        <div class="hero-copy">
+          <h1 class="hero-brand">Qlendar</h1>
+          <p class="hero-headline">Your days. Logged. Shared. Clear.</p>
+          <p class="hero-sub">
+            Shared trackers for milk delivery, maid attendance, medicine, and any routine your household logs together.
+          </p>
 
-        <div class="store-row">
-          <a
-            class="store-btn"
-            href="https://apps.apple.com/us/app/qlendar/id6796798438"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Download Qlendar on the App Store"
-          >
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-              <path d="M17.05 20.28c-.98.95-2.05.88-3.08.4-1.09-.5-2.08-.48-3.24 0-1.44.62-2.2.44-3.06-.4C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
-            </svg>
-            <span class="store-btn-text">
-              <span class="store-btn-label">Download on the</span>
-              <span class="store-btn-name">App Store</span>
-            </span>
-          </a>
-          <a
-            class="store-btn"
-            href="https://play.google.com/store/apps/details?id=com.tq.tqlendar&hl=en_IN"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Get Qlendar on Google Play"
-          >
-            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
-              <path d="M3 20.5L13.5 10L3 3.5V20.5Z" fill="#00D7FF"/>
-              <path d="M13.5 10L3 20.5L16.5 13.5L13.5 10Z" fill="#FFCE00"/>
-              <path d="M3 3.5L13.5 10L16.5 6.5L3 3.5Z" fill="#FF2D55"/>
-              <path d="M13.5 10L16.5 6.5L21 9.25L13.5 10Z" fill="#00D7FF"/>
-              <path d="M13.5 10L21 9.25L21 14.75L13.5 10Z" fill="#FFCE00"/>
-              <path d="M16.5 13.5L21 14.75L13.5 10L16.5 13.5Z" fill="#FF2D55"/>
-            </svg>
-            <span class="store-btn-text">
-              <span class="store-btn-label">Get it on</span>
-              <span class="store-btn-name">Google Play</span>
-            </span>
-          </a>
-          <a
-            class="store-btn store-btn-ghost"
-            href="https://tqlendar.web.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Open Qlendar on the web"
-          >
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-              <circle cx="12" cy="12" r="9"/>
-              <path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/>
-            </svg>
-            <span class="store-btn-text">
-              <span class="store-btn-label">Or use in browser</span>
-              <span class="store-btn-name">tqlendar.web.app</span>
-            </span>
-          </a>
+          <div class="store-row">
+            <a
+              class="store-btn"
+              href="https://apps.apple.com/us/app/qlendar/id6796798438"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Download Qlendar on the App Store"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M17.05 20.28c-.98.95-2.05.88-3.08.4-1.09-.5-2.08-.48-3.24 0-1.44.62-2.2.44-3.06-.4C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
+              </svg>
+              <span class="store-btn-text">
+                <span class="store-btn-label">Download on the</span>
+                <span class="store-btn-name">App Store</span>
+              </span>
+            </a>
+            <a
+              class="store-btn"
+              href="https://play.google.com/store/apps/details?id=com.tq.tqlendar&hl=en_IN"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Get Qlendar on Google Play"
+            >
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M3 20.5L13.5 10L3 3.5V20.5Z" fill="#00D7FF"/>
+                <path d="M13.5 10L3 20.5L16.5 13.5L13.5 10Z" fill="#FFCE00"/>
+                <path d="M3 3.5L13.5 10L16.5 6.5L3 3.5Z" fill="#FF2D55"/>
+                <path d="M13.5 10L16.5 6.5L21 9.25L13.5 10Z" fill="#00D7FF"/>
+                <path d="M13.5 10L21 9.25L21 14.75L13.5 10Z" fill="#FFCE00"/>
+                <path d="M16.5 13.5L21 14.75L13.5 10L16.5 13.5Z" fill="#FF2D55"/>
+              </svg>
+              <span class="store-btn-text">
+                <span class="store-btn-label">Get it on</span>
+                <span class="store-btn-name">Google Play</span>
+              </span>
+            </a>
+            <a
+              class="store-btn store-btn-ghost"
+              href="https://tqlendar.web.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Open Qlendar on the web"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="9"/>
+                <path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/>
+              </svg>
+              <span class="store-btn-text">
+                <span class="store-btn-label">Or use in browser</span>
+                <span class="store-btn-name">Web app</span>
+              </span>
+            </a>
+          </div>
+          <a class="hero-guide" href="how-to.html">How to use →</a>
         </div>
-        <a class="hero-guide" href="how-to.html">How to use Qlendar →</a>
-      </div>
 
-      <div class="hero-visual">
-        <div class="phone-stage" aria-roledescription="carousel" aria-label="Qlendar app screens">
-          <div class="phone">
-            <div class="phone-notch" aria-hidden="true"></div>
-            <div class="phone-screen">
-              <div class="slides" id="slides">
-                <figure class="slide is-active" data-label="My Tracker" aria-hidden="false">
-                  <img
-                    src="assets/phone_screenshots/tqlendar_phone_01_calendars.png"
-                    width="1080"
-                    height="1920"
-                    alt="Qlendar My Tracker list of shared calendars"
-                  />
-                </figure>
-                <figure class="slide" data-label="Templates" aria-hidden="true">
-                  <img
-                    src="assets/phone_screenshots/tqlendar_phone_03_templates.png"
-                    width="1080"
-                    height="1920"
-                    alt="Qlendar template picker for new trackers"
-                    loading="lazy"
-                  />
-                </figure>
-                <figure class="slide" data-label="Daily log" aria-hidden="true">
-                  <img
-                    src="assets/phone_screenshots/tqlendar_phone_02_daily.png"
-                    width="1080"
-                    height="1920"
-                    alt="Qlendar daily entry screen"
-                    loading="lazy"
-                  />
-                </figure>
-                <figure class="slide" data-label="Reports" aria-hidden="true">
-                  <img
-                    src="assets/phone_screenshots/tqlendar_phone_04_reports.png"
-                    width="1080"
-                    height="1920"
-                    alt="Qlendar monthly reports"
-                    loading="lazy"
-                  />
-                </figure>
-                <figure class="slide" data-label="Share" aria-hidden="true">
-                  <img
-                    src="assets/phone_screenshots/tqlendar_phone_05_share.png"
-                    width="1080"
-                    height="1920"
-                    alt="Qlendar share and invite screen"
-                    loading="lazy"
-                  />
-                </figure>
+        <div class="hero-visual">
+          <div class="phone-stage" aria-roledescription="carousel" aria-label="Qlendar app screens">
+            <div class="phone">
+              <div class="phone-notch" aria-hidden="true"></div>
+              <div class="phone-screen">
+                <div class="slides" id="slides">
+                  <figure class="slide is-active" data-label="My Tracker" aria-hidden="false">
+                    <img
+                      src="assets/phone_screenshots/tqlendar_phone_01_calendars.png"
+                      width="1080"
+                      height="1920"
+                      alt="Qlendar My Tracker list of shared calendars"
+                    />
+                  </figure>
+                  <figure class="slide" data-label="Templates" aria-hidden="true">
+                    <img
+                      src="assets/phone_screenshots/tqlendar_phone_03_templates.png"
+                      width="1080"
+                      height="1920"
+                      alt="Qlendar template picker for new trackers"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <figure class="slide" data-label="Daily log" aria-hidden="true">
+                    <img
+                      src="assets/phone_screenshots/tqlendar_phone_02_daily.png"
+                      width="1080"
+                      height="1920"
+                      alt="Qlendar daily entry screen"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <figure class="slide" data-label="Reports" aria-hidden="true">
+                    <img
+                      src="assets/phone_screenshots/tqlendar_phone_04_reports.png"
+                      width="1080"
+                      height="1920"
+                      alt="Qlendar monthly reports"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <figure class="slide" data-label="Share" aria-hidden="true">
+                    <img
+                      src="assets/phone_screenshots/tqlendar_phone_05_share.png"
+                      width="1080"
+                      height="1920"
+                      alt="Qlendar share and invite screen"
+                      loading="lazy"
+                    />
+                  </figure>
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="slider-controls">
-          <button type="button" class="slider-btn" id="prevSlide" aria-label="Previous screen">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M15 18l-6-6 6-6"/>
-            </svg>
-          </button>
-          <div class="dots" id="dots" role="tablist" aria-label="Choose screen"></div>
-          <button type="button" class="slider-btn" id="nextSlide" aria-label="Next screen">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M9 18l6-6-6-6"/>
-            </svg>
-          </button>
+          <div class="slider-controls">
+            <button type="button" class="slider-btn" id="prevSlide" aria-label="Previous screen">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 18l-6-6 6-6"/>
+              </svg>
+            </button>
+            <div class="dots" id="dots" role="tablist" aria-label="Choose screen"></div>
+            <button type="button" class="slider-btn" id="nextSlide" aria-label="Next screen">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 18l6-6-6-6"/>
+              </svg>
+            </button>
+          </div>
+          <p class="slide-label" id="slideLabel">My Tracker</p>
         </div>
-        <p class="slide-label" id="slideLabel">My Tracker</p>
-      </div>
-    </main>
+      </main>
+    </div>
 
     <section class="how" aria-labelledby="how-heading">
       <h2 id="how-heading" class="section-heading">Three taps. Whole household aligned.</h2>
       <p class="section-sub">Create a tracker, log the day, share so everyone sees the same truth.</p>
       <ol class="how-steps">
         <li>
-          <span class="how-num" aria-hidden="true">1</span>
+          <span class="how-num" aria-hidden="true">01</span>
           <strong>Create</strong>
           <span>Pick a template — milk, maid, medicine — or build your own fields.</span>
         </li>
         <li>
-          <span class="how-num" aria-hidden="true">2</span>
+          <span class="how-num" aria-hidden="true">02</span>
           <strong>Log</strong>
           <span>Open a day, tap options or enter a number, save. Color fills the month.</span>
         </li>
         <li>
-          <span class="how-num" aria-hidden="true">3</span>
+          <span class="how-num" aria-hidden="true">03</span>
           <strong>Share</strong>
           <span>Invite family as editors or viewers. Reports show the pattern.</span>
         </li>
@@ -239,42 +242,51 @@
 
       <div class="showcase-grid">
         <article class="showcase-item">
-          <img
-            src="assets/phone_screenshots/tqlendar_phone_03_templates.png"
-            width="540"
-            height="960"
-            alt="Template picker"
-            loading="lazy"
-          />
+          <div class="showcase-phone">
+            <img
+              src="assets/phone_screenshots/tqlendar_phone_03_templates.png"
+              width="540"
+              height="960"
+              alt="Template picker"
+              loading="lazy"
+            />
+          </div>
           <div class="showcase-copy">
+            <p class="eyebrow">Templates</p>
             <h3>Start from a template</h3>
             <p>Milkman, maid attendance, medicine doses, mood, office hours — or fully custom fields.</p>
             <a href="templates.html">Browse templates →</a>
           </div>
         </article>
         <article class="showcase-item reverse">
-          <img
-            src="assets/phone_screenshots/tqlendar_phone_05_share.png"
-            width="540"
-            height="960"
-            alt="Share screen"
-            loading="lazy"
-          />
+          <div class="showcase-phone">
+            <img
+              src="assets/phone_screenshots/tqlendar_phone_05_share.png"
+              width="540"
+              height="960"
+              alt="Share screen"
+              loading="lazy"
+            />
+          </div>
           <div class="showcase-copy">
+            <p class="eyebrow">Sharing</p>
             <h3>Share with family</h3>
             <p>Email invites or one-time links. Editors log entries; viewers stay in the loop.</p>
             <a href="how-to.html#share">How sharing works →</a>
           </div>
         </article>
         <article class="showcase-item">
-          <img
-            src="assets/phone_screenshots/tqlendar_phone_04_reports.png"
-            width="540"
-            height="960"
-            alt="Reports screen"
-            loading="lazy"
-          />
+          <div class="showcase-phone">
+            <img
+              src="assets/phone_screenshots/tqlendar_phone_04_reports.png"
+              width="540"
+              height="960"
+              alt="Reports screen"
+              loading="lazy"
+            />
+          </div>
           <div class="showcase-copy">
+            <p class="eyebrow">Reports</p>
             <h3>See the month clearly</h3>
             <p>Charts and totals from daily logs — share a summary snapshot when you need it.</p>
             <a href="how-to.html#reports">How to read reports →</a>
@@ -306,7 +318,7 @@
         <a href="support.html">Support</a>
         <a href="delete-account.html">Delete Account</a>
       </nav>
-      <p>Qlendar · <a href="https://tqlendar.web.app/" target="_blank" rel="noopener noreferrer">tqlendar.web.app</a> · from <a href="https://docs.truelinq.com/">TrueLinq</a> · <a href="https://play.google.com/store/apps/details?id=com.dialer.dialer&hl=en_IN">Dialer on Google Play</a></p>
+      <p>Qlendar · <a href="https://tqlendar.web.app/" target="_blank" rel="noopener noreferrer">tqlendar.web.app</a> · from <a href="https://docs.truelinq.com/">TrueLinq</a></p>
     </footer>
   </div>
 
